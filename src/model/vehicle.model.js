@@ -6,6 +6,7 @@ const VehicleSchema = new mongoose.Schema({
     fuelType: { type: String, required: true},
     ownerName: {type:String, required: true},
     registeredYear: {type:Number, required: true},
+    vehitype : {type:String}
 });
 
 const Vehicle = mongoose.model('vehicle', VehicleSchema);
